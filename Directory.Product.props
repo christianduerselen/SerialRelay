@@ -1,0 +1,11 @@
+<Project>
+  
+  <PropertyGroup>
+    <Product>SerialRelay</Product>
+    <Title>$(MSBuildProjectName)</Title>
+    <Description>Software tool to relay and delay data between two serial ports.</Description>
+    <Company>Christian Dürselen</Company>
+    <Copyright>Copyright $([System.DateTime]::Now.ToString("yyyy")) $(Company). All rights reserved.</Copyright>
+  </PropertyGroup>
+  
+</Project>

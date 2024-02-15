@@ -1,0 +1,25 @@
+<Project>
+
+  <PropertyGroup>
+    
+	<!-- NerdbankGit.Versioning nuget package version -->
+	<NerdbankGitVersioningVersion>3.6.133</NerdbankGitVersioningVersion>
+	
+	<!-- Microsoft.SourceLink.AzureRepos.Git nuget package version -->
+	<MicrosoftSourceLinkAzureReposGitVersion>8.0.0</MicrosoftSourceLinkAzureReposGitVersion>
+	
+	<!-- Microsoft.NET.Test.Sdk nuget package version -->
+	<MicrosoftNETTestSdkVersion>17.9.0</MicrosoftNETTestSdkVersion>
+	
+	<!-- xunit nuget package version -->
+	<XunitVersion>2.6.6</XunitVersion>
+	
+	<!-- xunit.runner.visualstudio nuget package version -->
+	<XunitRunnerVisualStudioVersion>2.5.6</XunitRunnerVisualStudioVersion>
+	
+	<!-- coverlet.collector nuget package version -->
+	<CoverletCollectorVersion>6.0.0</CoverletCollectorVersion>	
+	
+  </PropertyGroup>
+
+</Project>
