@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json",
+  "version": "1.0.0-alpha1.{height}",
+  "nuGetPackageVersion": {
+    "semVer": 2.0
+  },
+  // Builds from the following git references won't contain the commit suffix in the NugetPackageVersion and be tagged as a public release
+  "publicReleaseRefSpec": [
+    // Branch 'main'
+    "^refs/heads/main$",
+    // Branch 'release/v[Major](.[Minor](.[Patch]))' (e.g. branch 'release/v1' as well as 'release/v1.1' and 'release/v1.1.1')
+    "^refs/heads/release/v\\d+(.\\d+(.\\d+)?)?$",
+    // Tags 'v[Major].[Minor].[Patch](-[Prerelease])' (e.g. tag 'v1.0.0' for a final release as well as 'v1.0.0-beta1' for a prerelease)
+    "^refs/tags/v\\d+.\\d+.\\d+(-.+)?$"
+  ]
+}

@@ -5,8 +5,8 @@
 	<!-- NerdbankGit.Versioning nuget package version -->
 	<NerdbankGitVersioningVersion>3.6.133</NerdbankGitVersioningVersion>
 	
-	<!-- Microsoft.SourceLink.AzureRepos.Git nuget package version -->
-	<MicrosoftSourceLinkAzureReposGitVersion>8.0.0</MicrosoftSourceLinkAzureReposGitVersion>
+	<!-- Microsoft.SourceLink.GitHub nuget package version -->
+	<MicrosoftSourceLinkGitHubVersion>8.0.0</MicrosoftSourceLinkGitHubVersion>
 	
 	<!-- Microsoft.NET.Test.Sdk nuget package version -->
 	<MicrosoftNETTestSdkVersion>17.9.0</MicrosoftNETTestSdkVersion>
